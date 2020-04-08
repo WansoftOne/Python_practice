@@ -65,3 +65,8 @@ BUCLE WHILE
 while (condition):
     #here your code
 
+
+
+Virtual enviroment
+Create virtual enviroment: python -m venv tutorial-env
+Start virtual enviroment: name_virtual_enviroment/Scripts/activate
