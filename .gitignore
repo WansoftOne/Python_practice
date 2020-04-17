@@ -1,0 +1,4 @@
+/django/django_enviroment
+/django/web_app/custom_instagram/db.sqlite3
+/servers/venv/
+__pycache__/

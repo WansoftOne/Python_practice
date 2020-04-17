@@ -70,3 +70,23 @@ while (condition):
 Virtual enviroment
 Create virtual enviroment: python -m venv tutorial-env
 Start virtual enviroment: name_virtual_enviroment/Scripts/activate
+
+Instalar Django -- pip install django -U
+Create a new Django APP --django-admin startproject name_proyect
+Start Django Project -- python manage.py runserver
+Create applitation in Django APP -- python manage.py startapp name_app
+
+Shell Django --> python manage.py Shell
+Save data --> user = UserModel()
+Set data to user -> user.name = "Magda"
+Execute save method on Model object --> user.save()
+
+delete object --> user.delete()
+
+find all elements --> User.objects.all()
+find with filter --> User.objects.filter(email__contains='@')
+find only one reference --> User.objects.get(email="email@email.com")
+
+
+
+

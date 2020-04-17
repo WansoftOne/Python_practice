@@ -1,0 +1,16 @@
+{% extends 'index.html' %}
+
+{% block body %}
+    <h1> {{ contact.name }} </h1>
+    <h3> {{ contact.phone }} </h3>
+    <h3> {{ contact.email }} </h3>
+
+    <form action="/delete" method="post">
+        <input type="hidden" name="name" value="{{ contact.name }}">
+        <button type="submit">Delete contact</button>
+    </form>
+
+    <p>
+        <a href="/">back</a>
+    </p>
+{% endblock %}
